@@ -12,7 +12,6 @@
         "--filesystem=host",
         "--device=dri"
     ],
-
     "modules": [
         {
             "name": "libexif",
@@ -33,7 +32,9 @@
         },
         {
             "name": "taglib",
-            "config-opts": [ "-DBUILD_SHARED_LIBS=ON" ],
+            "config-opts": [
+                "-DBUILD_SHARED_LIBS=ON"
+            ],
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
@@ -51,13 +52,15 @@
         },
         {
             "name": "kjs",
-            "config-opts": [ "-DENABLE_TESTING=OFF" ],
+            "config-opts": [
+                "-DENABLE_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.90/portingAids/kjs-5.90.0.tar.xz",
-                    "sha256": "9bab652cadbc3be62d477ac07a7aa0fae296db2ab042097aea06abfd7b0cadfc",
+                    "url": "https://download.kde.org/stable/frameworks/5.92/portingAids/kjs-5.92.0.tar.xz",
+                    "sha256": "04072d527501c92f1e0144e9dcc114e108bfb5a2b50bed8a9b037474aaa6f118",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -71,18 +74,18 @@
             "name": "krename",
             "buildsystem": "cmake-ninja",
             "sources": [
-                { 
+                {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/krename/5.0.1/src/krename-5.0.1.tar.xz",
-                    "sha256" : "caac78afd3ba06613df47bbd1570bb900acf4185547354d6eb588e70656f6a7d",
+                    "sha256": "caac78afd3ba06613df47bbd1570bb900acf4185547354d6eb588e70656f6a7d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1521,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/krename/$version/src/krename-$version.tar.xz"
                     }
-                  },
-                  {
+                },
+                {
                     "type": "patch",
                     "path": "appdata.patch"
                 }
