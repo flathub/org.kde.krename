@@ -21,7 +21,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/libexif/libexif/releases/download/v0.6.24/libexif-0.6.24.tar.bz2",
-                    "sha256": "d47564c433b733d83b6704c70477e0a4067811d184ec565258ac563d8223f6ae"
+                    "sha256": "d47564c433b733d83b6704c70477e0a4067811d184ec565258ac563d8223f6ae",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1607,
+                        "stable-only": true,
+                        "url-template": "https://github.com/libexif/libexif/releases/download/v$version/libexif-$version.tar.bz2"
+                    }
                 }
             ]
         },
@@ -33,7 +39,13 @@
                 {
                     "type": "archive",
                     "url": "https://taglib.github.io/releases/taglib-1.12.tar.gz",
-                    "sha256": "7fccd07669a523b07a15bd24c8da1bbb92206cb19e9366c3692af3d79253b703"
+                    "sha256": "7fccd07669a523b07a15bd24c8da1bbb92206cb19e9366c3692af3d79253b703",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1982,
+                        "stable-only": true,
+                        "url-template": "https://taglib.github.io/releases/taglib-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -45,7 +57,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/frameworks/5.90/portingAids/kjs-5.90.0.tar.xz",
-                    "sha256": "9bab652cadbc3be62d477ac07a7aa0fae296db2ab042097aea06abfd7b0cadfc"
+                    "sha256": "9bab652cadbc3be62d477ac07a7aa0fae296db2ab042097aea06abfd7b0cadfc",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8762,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/portingAids/kjs-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -56,7 +74,13 @@
                 { 
                     "type": "archive",
                     "url": "https://download.kde.org/stable/krename/5.0.1/src/krename-5.0.1.tar.xz",
-                    "sha256" : "caac78afd3ba06613df47bbd1570bb900acf4185547354d6eb588e70656f6a7d"
+                    "sha256" : "caac78afd3ba06613df47bbd1570bb900acf4185547354d6eb588e70656f6a7d",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1521,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/krename/$version/src/krename-$version.tar.xz"
+                    }
                   },
                   {
                     "type": "patch",
