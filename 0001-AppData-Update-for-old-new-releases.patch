@@ -1,0 +1,25 @@
+From fd7a7c9ca3171126d4cf50f2322c1b2ec3baa3c9 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Timoth=C3=A9e=20Ravier?= <tim@siosm.fr>
+Date: Tue, 6 Sep 2022 17:02:12 +0200
+Subject: [PATCH] AppData: Update for old & new releases
+
+---
+ src/org.kde.krename.appdata.xml | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/org.kde.krename.appdata.xml b/src/org.kde.krename.appdata.xml
+index ad4026e..68d2b4c 100644
+--- a/src/org.kde.krename.appdata.xml
++++ b/src/org.kde.krename.appdata.xml
+@@ -118,6 +118,8 @@
+   <launchable type="desktop-id">org.kde.krename.desktop</launchable>
+   <content_rating type="oars-1.1"/>
+   <releases>
++    <release version="5.0.2" date="2022-08-31"/>
+     <release version="5.0.1" date="2020-10-05"/>
++    <release version="5.0.0" date="2018-02-13"/>
+   </releases>
+ </component>
+-- 
+2.37.3
+

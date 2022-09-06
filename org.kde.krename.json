@@ -87,7 +87,7 @@
                 },
                 {
                     "type": "patch",
-                    "path": "appdata.patch"
+                    "path": "0001-AppData-Update-for-old-new-releases.patch"
                 }
             ]
         }
