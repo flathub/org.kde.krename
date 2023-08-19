@@ -59,8 +59,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.108/portingAids/kjs-5.108.0.tar.xz",
-                    "sha256": "f03921392bb54ba011e3275fb52c9ec8f975e49222639644aefecd9665809177",
+                    "url": "https://download.kde.org/stable/frameworks/5.109/portingAids/kjs-5.109.0.tar.xz",
+                    "sha256": "a5f4bec85662c1c554cf4e7fff3c6c7d9e0ce57e46b2139f9c8140891688133e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
