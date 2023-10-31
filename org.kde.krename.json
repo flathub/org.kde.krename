@@ -55,7 +55,6 @@
             "config-opts": [
                 "--enable-unicode-properties"
             ],
-            "cleanup": ["*"],
             "sources": [
                 {
                     "type": "archive",
