@@ -1,7 +1,7 @@
 {
     "id": "org.kde.krename",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "command": "krename",
     "rename-icon": "krename",
@@ -47,6 +47,19 @@
                         "stable-only": true,
                         "url-template": "https://taglib.github.io/releases/taglib-$version.tar.gz"
                     }
+                }
+            ]
+        },
+        {
+            "name": "pcre",
+            "config-opts": [
+                "--enable-unicode-properties"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "http://prdownloads.sourceforge.net/pcre/pcre-8.45.tar.bz2",
+                    "sha256": "4dae6fdcd2bb0bb6c37b5f97c33c2be954da743985369cddac3546e3218bffb8"
                 }
             ]
         },
