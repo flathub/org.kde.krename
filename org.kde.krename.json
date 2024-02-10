@@ -39,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://taglib.github.io/releases/taglib-1.13.1.tar.gz",
-                    "sha256": "c8da2b10f1bfec2cd7dbfcd33f4a2338db0765d851a50583d410bacf055cfd0b",
+                    "url": "https://taglib.github.io/releases/taglib-2.0.tar.gz",
+                    "sha256": "e36ea877a6370810b97d84cf8f72b1e4ed205149ab3ac8232d44c850f38a2859",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1982,
@@ -72,8 +72,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.111/portingAids/kjs-5.111.0.tar.xz",
-                    "sha256": "0f947fb59a418362ac7bde8c4183775353c31544213c4ee45c0e3d779831cf23",
+                    "url": "https://download.kde.org/stable/frameworks/5.115/portingAids/kjs-5.115.0.tar.xz",
+                    "sha256": "9cf4e00070586af43a21d5e4c30c61e66bc1c5f53952d4335bc7df44f9130432",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
