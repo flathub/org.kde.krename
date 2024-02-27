@@ -119,6 +119,9 @@
                     "type": "patch",
                     "path": "0001-AppData-Update-for-old-new-releases.patch"
                 }
+            ],
+            "post-install": [
+                "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
             ]
         }
     ]
