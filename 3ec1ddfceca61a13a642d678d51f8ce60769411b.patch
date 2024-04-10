@@ -1,0 +1,35 @@
+From 3ec1ddfceca61a13a642d678d51f8ce60769411b Mon Sep 17 00:00:00 2001
+From: Heiko Becker <heiko.becker@kde.org>
+Date: Thu, 1 Sep 2022 20:36:57 +0200
+Subject: [PATCH] Add icon from breeze and add more sizes
+
+As a breeze user I never really noticed the old icon, but in my opinion
+the breeze version is much better and I could also use it to create
+additional sizes.
+
+Closes #1.
+---
+ src/pics/CMakeLists.txt       |  11 +++++++----
+
+diff --git a/src/pics/CMakeLists.txt b/src/pics/CMakeLists.txt
+index c4c2887..1c03c51 100644
+--- a/src/pics/CMakeLists.txt
++++ b/src/pics/CMakeLists.txt
+@@ -1,7 +1,10 @@
+-ecm_install_icons(ICONS
+-    16-apps-krename.png
+-    32-apps-krename.png
+-    48-apps-krename.png
++ecm_install_icons(
++    ICONS
++        16-apps-krename.png
++        22-apps-krename.png
++        32-apps-krename.png
++        48-apps-krename.png
++        128-apps-krename.png
+     DESTINATION ${KDE_INSTALL_ICONDIR}
+     THEME hicolor
+ )
+-- 
+GitLab
+

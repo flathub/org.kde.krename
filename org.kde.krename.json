@@ -117,6 +117,35 @@
                 {
                     "type": "patch",
                     "path": "0001-AppData-Update-for-old-new-releases.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "3ec1ddfceca61a13a642d678d51f8ce60769411b.patch"
+                },
+                {
+                    "type": "file",
+                    "path": "16-apps-krename.png",
+                    "dest": "src/pics/"
+                },
+                {
+                    "type": "file",
+                    "path": "22-apps-krename.png",
+                    "dest": "src/pics/"
+                },
+                {
+                    "type": "file",
+                    "path": "32-apps-krename.png",
+                    "dest": "src/pics/"
+                },
+                {
+                    "type": "file",
+                    "path": "48-apps-krename.png",
+                    "dest": "src/pics/"
+                },
+                {
+                    "type": "file",
+                    "path": "128-apps-krename.png",
+                    "dest": "src/pics/"
                 }
             ]
         }
