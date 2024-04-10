@@ -31,6 +31,22 @@
             ]
         },
         {
+            "name": "utfcpp",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/nemtrif/utfcpp/archive/refs/tags/v4.0.5.tar.gz",
+                    "sha256": "ffc668a310e77607d393f3c18b32715f223da1eac4c4d6e0579a11df8e6b59cf",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 20545,
+                        "url-template": "https://github.com/nemtrif/utfcpp/archive/refs/tags/v$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "taglib",
             "config-opts": [
                 "-DBUILD_SHARED_LIBS=ON"
@@ -39,8 +55,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://taglib.github.io/releases/taglib-1.13.1.tar.gz",
-                    "sha256": "c8da2b10f1bfec2cd7dbfcd33f4a2338db0765d851a50583d410bacf055cfd0b",
+                    "url": "https://taglib.github.io/releases/taglib-2.0.1.tar.gz",
+                    "sha256": "08c0a27b96aa5c4e23060fe0b6f93102ee9091a9385257b9d0ddcf467de0d925",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1982,
@@ -101,6 +117,35 @@
                 {
                     "type": "patch",
                     "path": "0001-AppData-Update-for-old-new-releases.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "3ec1ddfceca61a13a642d678d51f8ce60769411b.patch"
+                },
+                {
+                    "type": "file",
+                    "path": "16-apps-krename.png",
+                    "dest": "src/pics/"
+                },
+                {
+                    "type": "file",
+                    "path": "22-apps-krename.png",
+                    "dest": "src/pics/"
+                },
+                {
+                    "type": "file",
+                    "path": "32-apps-krename.png",
+                    "dest": "src/pics/"
+                },
+                {
+                    "type": "file",
+                    "path": "48-apps-krename.png",
+                    "dest": "src/pics/"
+                },
+                {
+                    "type": "file",
+                    "path": "128-apps-krename.png",
+                    "dest": "src/pics/"
                 }
             ]
         }
