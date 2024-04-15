@@ -14,19 +14,17 @@
     ],
     "modules": [
         {
-            "name": "libexif",
-            "buildsystem": "autotools",
+            "name": "exiv2",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/libexif/libexif/releases/download/v0.6.24/libexif-0.6.24.tar.bz2",
-                    "sha256": "d47564c433b733d83b6704c70477e0a4067811d184ec565258ac563d8223f6ae",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 1607,
-                        "stable-only": true,
-                        "url-template": "https://github.com/libexif/libexif/releases/download/v$version/libexif-$version.tar.bz2"
-                    }
+                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.6/exiv2-0.27.6-Source.tar.gz",
+                    "sha256": "4c192483a1125dc59a3d70b30d30d32edace9e14adf52802d2f853abf72db8a6"
                 }
             ]
         },
