@@ -147,6 +147,10 @@
                     "path": "3ec1ddfceca61a13a642d678d51f8ce60769411b.patch"
                 },
                 {
+                    "type": "patch",
+                    "path": "66c4c3b8798ab97eb8710dbfb730b042ca04ee91.patch"
+                },
+                {
                     "type": "file",
                     "path": "16-apps-krename.png",
                     "dest": "src/pics/"

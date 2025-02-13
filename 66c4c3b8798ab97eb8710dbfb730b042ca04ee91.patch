@@ -1,0 +1,29 @@
+From 66c4c3b8798ab97eb8710dbfb730b042ca04ee91 Mon Sep 17 00:00:00 2001
+From: "Friedrich W. H. Kossebau" <kossebau@kde.org>
+Date: Thu, 11 Apr 2024 23:48:01 +0200
+Subject: [PATCH] appstream: use desktop-application type, add developer tag
+
+---
+ src/org.kde.krename.appdata.xml | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/src/org.kde.krename.appdata.xml b/src/org.kde.krename.appdata.xml
+index 8c58cf9..7f097c2 100644
+--- a/src/org.kde.krename.appdata.xml
++++ b/src/org.kde.krename.appdata.xml
+@@ -1,8 +1,11 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<component type="desktop">
++<component type="desktop-application">
+   <id>org.kde.krename.desktop</id>
+   <metadata_license>FSFAP</metadata_license>
+   <project_license>GPL-2.0</project_license>
++  <developer id="org.kde">
++    <name translate="no">KDE</name>
++  </developer>
+   <name>KRename</name>
+   <name xml:lang="ar">مغيّر الأسماء</name>
+   <name xml:lang="ca">KRename</name>
+-- 
+GitLab
+
