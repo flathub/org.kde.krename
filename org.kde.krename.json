@@ -1,7 +1,7 @@
 {
     "id": "org.kde.krename",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "5.15-24.08",
     "sdk": "org.kde.Sdk",
     "command": "krename",
     "rename-icon": "krename",
@@ -145,6 +145,10 @@
                 {
                     "type": "patch",
                     "path": "3ec1ddfceca61a13a642d678d51f8ce60769411b.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "developername.patch"
                 },
                 {
                     "type": "file",
