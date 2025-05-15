@@ -1,0 +1,21 @@
+commit 66c4c3b8798ab97eb8710dbfb730b042ca04ee91
+Author: Friedrich W. H. Kossebau <kossebau@kde.org>
+Date:   Thu Apr 11 23:48:01 2024 +0200
+
+    appstream: use desktop-application type, add developer tag
+
+diff --git a/src/org.kde.krename.appdata.xml b/src/org.kde.krename.appdata.xml
+index 8c58cf9..7f097c2 100644
+--- a/src/org.kde.krename.appdata.xml
++++ b/src/org.kde.krename.appdata.xml
+@@ -1,6 +1,9 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<component type="desktop">
++<component type="desktop-application">
+   <id>org.kde.krename.desktop</id>
+   <metadata_license>FSFAP</metadata_license>
+   <project_license>GPL-2.0</project_license>
++  <developer id="org.kde">
++    <name translate="no">KDE</name>
++  </developer>
+   <name>KRename</name>
