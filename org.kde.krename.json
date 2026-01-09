@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/nemtrif/utfcpp/archive/refs/tags/v4.09.tar.gz",
-                    "sha256": "0902218f606e942ccc10724df8a988fc993c12da4b3adeace28a7f0211970e08",
+                    "url": "https://github.com/nemtrif/utfcpp/archive/refs/tags/v4.0.9.tar.gz",
+                    "sha256": "397a9a2a6ed5238f854f490b0177b840abc6b62571ec3e07baa0bb94d3f14d5a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 20545,
