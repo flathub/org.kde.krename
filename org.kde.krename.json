@@ -1,7 +1,7 @@
 {
     "id": "org.kde.krename",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-24.08",
+    "runtime-version": "5.15-25.08",
     "sdk": "org.kde.Sdk",
     "command": "krename",
     "rename-icon": "krename",
@@ -80,15 +80,16 @@
         {
             "name": "podofo",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
+                "-DPODOFO_BUILD_LIB_ONLY=1",
+                "-DPODOFO_BUILD_SHARED=1",
+                "-DPODOFO_BUILD_STATIC=0"
+            ],
             "cleanup": [
                 "/bin",
                 "/share",
                 "/lib/pkgconfig"
-            ],
-            "config-opts": [
-                "-DPODOFO_BUILD_LIB_ONLY=1",
-                "-DPODOFO_BUILD_SHARED=1",
-                "-DPODOFO_BUILD_STATIC=0"
             ],
             "sources": [
                 {
@@ -106,6 +107,9 @@
         {
             "name": "krename",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
+            ],
             "sources": [
                 {
                     "type": "archive",
