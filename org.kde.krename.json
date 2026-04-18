@@ -120,6 +120,9 @@
             "config-opts": [
                 "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
             ],
+            "post-install": [
+                "install -Dm644 krename.png -t ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -140,34 +143,10 @@
                     "type": "patch",
                     "path": "3ec1ddfceca61a13a642d678d51f8ce60769411b.patch"
                 },
-                {
-                    "type": "patch",
-                    "path": "developername.patch"
                 },
                 {
                     "type": "file",
-                    "path": "16-apps-krename.png",
-                    "dest": "src/pics/"
-                },
-                {
-                    "type": "file",
-                    "path": "22-apps-krename.png",
-                    "dest": "src/pics/"
-                },
-                {
-                    "type": "file",
-                    "path": "32-apps-krename.png",
-                    "dest": "src/pics/"
-                },
-                {
-                    "type": "file",
-                    "path": "48-apps-krename.png",
-                    "dest": "src/pics/"
-                },
-                {
-                    "type": "file",
-                    "path": "128-apps-krename.png",
-                    "dest": "src/pics/"
+                    "path": "krename.png"
                 }
             ]
         }
