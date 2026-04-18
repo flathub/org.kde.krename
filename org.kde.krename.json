@@ -5,6 +5,7 @@
     "sdk": "org.kde.Sdk",
     "command": "krename",
     "rename-icon": "krename",
+    "rename-appdata-file": "org.kde.krename.appdata.xml",
     "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
@@ -137,12 +138,7 @@
                 },
                 {
                     "type": "patch",
-                    "path": "0001-AppData-Update-for-old-new-releases.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "3ec1ddfceca61a13a642d678d51f8ce60769411b.patch"
-                },
+                    "path": "fix-appdata.patch"
                 },
                 {
                     "type": "file",
