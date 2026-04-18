@@ -42,6 +42,9 @@
         {
             "name": "utfcpp",
             "buildsystem": "cmake-ninja",
+            "cleanup": [
+                "/share/utf8cpp"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -98,9 +101,7 @@
                 "-DPODOFO_BUILD_STATIC=0"
             ],
             "cleanup": [
-                "/bin",
-                "/share",
-                "/lib/pkgconfig"
+                "/bin"
             ],
             "sources": [
                 {
